@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Betting Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Betting Calculator</h1>
+  <form id="calculator-form">
+    <label for="input1">Total Stake:</label>
+    <input type="number" step="any" id="input1" required>
+    <br>
+    <div id="matches-container">
+      <!-- Match inputs will be added here -->
+    </div>
+    <button type="button" id="add-match">Add Match</button>
+    <br>
+    <input type="submit" value="Calculate">
+  </form>
+  <div id="result"></div>
+  <script src="script.js"></script>
+</body>
+</html>

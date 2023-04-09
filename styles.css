@@ -1,0 +1,9 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+}
+label, input {
+    display: block;
+    margin-bottom: 1em;
+}
